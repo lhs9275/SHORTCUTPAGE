@@ -1,0 +1,48 @@
+/* styels.css*/
+
+.wrapper 
+{
+    border: 2px solid #4B89DC;
+    margin: 10px; 
+    border-radius: 20px; /* 모서리를 둥글게 하는 부분 */
+    width: 850px; /* 너비 조절 */
+    height: 500px; /* 높이 조절 */
+    margin-left: 20px; ;
+}
+
+.content 
+{
+    color: #333;
+}
+.content 
+{
+    padding-left: 20px; /* 왼쪽으로 20px 이동 */
+    margin-top: 0;
+}
+    
+#notification 
+{
+    font-size: 30px;
+    display: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+     
+#dateOutput 
+{
+    margin-top: 10px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.clock 
+{
+    margin-top: 10px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.highlight 
+{
+    color: red; /* 적용할 색상을 원하는 대로 변경하세요 */
+}
