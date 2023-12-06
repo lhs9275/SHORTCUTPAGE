@@ -3,11 +3,22 @@
 
  // 페이지 로드 시 실행되는 함수
  document.addEventListener("DOMContentLoaded", function () {
-     checkNotification();
+  checkNotification();
 
-   const date = new Date().toLocaleDateString();
-   document.getElementById("dateOutput").innerText = date;
-   });
+  const currentDate = new Date();
+
+  // 년, 월, 일 추출
+  const year = currentDate.getFullYear();
+  const month = currentDate.getMonth() + 1; // 월은 0부터 시작하므로 1을 더합니다.
+  const day = currentDate.getDate();
+
+  // 날짜를 표시할 요소 찾기
+  const dateOutputElement = document.getElementById("dateOutput");
+
+  // 날짜를 년-월-일 형식으로 표시
+  const formattedDate = `${year}년${month < 10 ? '0' + month : month}월${day < 10 ? '0' + day : day}일`;
+  dateOutputElement.innerText = formattedDate;
+});
 
 
  // 주기적으로 현재 날짜를 확인하고 알림을 표시하는 함수
