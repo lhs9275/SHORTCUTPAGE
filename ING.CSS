@@ -1,4 +1,4 @@
-/* ING.css*/
+/* styels.css*/
 
 .wrapper 
 {
@@ -9,6 +9,7 @@
     height: 500px; /* 높이 조절 */
     margin-left: 20px; ;
 }
+
 .content 
 {
     color: #333;
