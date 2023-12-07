@@ -65,4 +65,8 @@
     display: block;
   }
 
+.element-class {
+    white-space: nowrap;
+    overflow: hidden;
+  }
 
