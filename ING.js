@@ -77,6 +77,6 @@ function showSlide() {
   setTimeout(showSlide, 3000);
 }
 
-setTimeout(showSlide, 5000);
+setTimeout(showSlide, 10000);
 showSlide();
 
