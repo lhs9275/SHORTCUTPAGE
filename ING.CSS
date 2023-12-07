@@ -46,3 +46,23 @@
 {
     color: red; /* 적용할 색상을 원하는 대로 변경하세요 */
 }
+
+
+#container {
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+  
+  .img {
+    display: none;
+    width: 500px;
+    height: 300px;
+  }
+  
+  .img.on {
+    display: block;
+  }
+
+
