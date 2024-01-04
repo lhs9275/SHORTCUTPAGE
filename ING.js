@@ -1,5 +1,5 @@
  // 지정한 날짜  설정
- const notificationDates = [3,5,6,13,14,15];
+ const notificationDates = [3,6,8,13,14,15];
 
  // 페이지 로드 시 실행되는 함수
  document.addEventListener("DOMContentLoaded", function () {
